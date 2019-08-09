@@ -41,30 +41,121 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ForexAppTests/ViewControlTests.swift"
-            timestampString = "586961123.7783459"
+            filePath = "ForexAppTests/CurrencyConverterViewCOntrollerTests.swift"
+            timestampString = "587042315.068096"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "testWhenViewControllerIsLoadedShouldDisplayOneLabelAndTwoButtons()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ForexAppTests/ViewControlTests.swift"
-            timestampString = "586961123.778416"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "testWhenViewControllerIsLoadedShouldDisplayOneLabelAndTwoButtons()"
-            landmarkType = "7">
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "CurrencyConverterViewCOntrollerTests"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ForexAppTests.CurrencyConverterViewCOntrollerTests.viewController.getter : Swift.Optional&lt;ForexApp.SecondViewController&gt;"
+                  moduleName = "ForexAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fordlabs/Documents/Gowtham/Krishna/ForexApp/ForexAppTests/CurrencyConverterViewCOntrollerTests.swift"
+                  timestampString = "587041663.4111691"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ForexAppTests.CurrencyConverterViewCOntrollerTests.viewController.setter : Swift.Optional&lt;ForexApp.SecondViewController&gt;"
+                  moduleName = "ForexAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fordlabs/Documents/Gowtham/Krishna/ForexApp/ForexAppTests/CurrencyConverterViewCOntrollerTests.swift"
+                  timestampString = "587041663.4140379"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ForexAppTests.CurrencyConverterViewCOntrollerTests.viewController.modify : Swift.Optional&lt;ForexApp.SecondViewController&gt;"
+                  moduleName = "ForexAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fordlabs/Documents/Gowtham/Krishna/ForexApp/ForexAppTests/CurrencyConverterViewCOntrollerTests.swift"
+                  timestampString = "587041663.415524"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ForexAppTests.CurrencyConverterViewCOntrollerTests.viewController.modify : Swift.Optional&lt;ForexApp.SecondViewController&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ForexAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fordlabs/Documents/Gowtham/Krishna/ForexApp/ForexAppTests/CurrencyConverterViewCOntrollerTests.swift"
+                  timestampString = "587041663.41693"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ForexAppTests.CurrencyConverterViewCOntrollerTests.init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; ForexAppTests.CurrencyConverterViewCOntrollerTests"
+                  moduleName = "ForexAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fordlabs/Documents/Gowtham/Krishna/ForexApp/ForexAppTests/CurrencyConverterViewCOntrollerTests.swift"
+                  timestampString = "587041663.4182709"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ForexAppTests.CurrencyConverterViewCOntrollerTests.init(selector: ObjectiveC.Selector) -&gt; ForexAppTests.CurrencyConverterViewCOntrollerTests"
+                  moduleName = "ForexAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fordlabs/Documents/Gowtham/Krishna/ForexApp/ForexAppTests/CurrencyConverterViewCOntrollerTests.swift"
+                  timestampString = "587041663.419623"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ForexAppTests.CurrencyConverterViewCOntrollerTests.init() -&gt; ForexAppTests.CurrencyConverterViewCOntrollerTests"
+                  moduleName = "ForexAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fordlabs/Documents/Gowtham/Krishna/ForexApp/ForexAppTests/CurrencyConverterViewCOntrollerTests.swift"
+                  timestampString = "587041663.421075"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

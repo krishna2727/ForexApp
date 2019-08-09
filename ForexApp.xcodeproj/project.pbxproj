@@ -11,6 +11,9 @@
 		610FBEDF22F190F8005598F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610FBEDE22F190F8005598F2 /* ViewController.swift */; };
 		610FBEE422F190F9005598F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 610FBEE322F190F9005598F2 /* Assets.xcassets */; };
 		610FBEE722F190F9005598F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 610FBEE522F190F9005598F2 /* LaunchScreen.storyboard */; };
+		6117211922FD8D7F00716956 /* ForexAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6117211822FD8D7F00716956 /* ForexAppTests.swift */; };
+		6117212222FD8DD400716956 /* ViewControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6117212022FD8DD400716956 /* ViewControlTests.swift */; };
+		6117212322FD8DD400716956 /* CurrencyConverterViewCOntrollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6117212122FD8DD400716956 /* CurrencyConverterViewCOntrollerTests.swift */; };
 		6155E24722F1969D00DF9CC1 /* ForexApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155E24622F1969D00DF9CC1 /* ForexApiClient.swift */; };
 		6155E24A22F19C4A00DF9CC1 /* ForexMainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155E24922F19C4A00DF9CC1 /* ForexMainModel.swift */; };
 		6155E24C22F19CC800DF9CC1 /* ForexQueryDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155E24B22F19CC800DF9CC1 /* ForexQueryDataModel.swift */; };
@@ -22,13 +25,11 @@
 		6155E26122F1CEA200DF9CC1 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155E26022F1CEA200DF9CC1 /* ThirdViewController.swift */; };
 		61858CA622FBD72D009E6D0A /* CurrencyConverterVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61858CA522FBD72D009E6D0A /* CurrencyConverterVIewModel.swift */; };
 		61858CA822FBD742009E6D0A /* ExchangeRatesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61858CA722FBD742009E6D0A /* ExchangeRatesViewModel.swift */; };
-		61858CC122FC49BB009E6D0A /* ViewControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61858CB822FC38FB009E6D0A /* ViewControlTests.swift */; };
-		61858CC322FC5078009E6D0A /* CurrencyConverterViewCOntrollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61858CC222FC5078009E6D0A /* CurrencyConverterViewCOntrollerTests.swift */; };
 		61DF6CDE22FA87ED006C2E57 /* ExchangeRatesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DF6CDD22FA87ED006C2E57 /* ExchangeRatesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		61858CBB22FC38FB009E6D0A /* PBXContainerItemProxy */ = {
+		6117211B22FD8D7F00716956 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 610FBED122F190F8005598F2 /* Project object */;
 			proxyType = 1;
@@ -58,6 +59,11 @@
 		610FBEE322F190F9005598F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		610FBEE622F190F9005598F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		610FBEE822F190F9005598F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6117211622FD8D7F00716956 /* ForexAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForexAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6117211822FD8D7F00716956 /* ForexAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexAppTests.swift; sourceTree = "<group>"; };
+		6117211A22FD8D7F00716956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6117212022FD8DD400716956 /* ViewControlTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControlTests.swift; sourceTree = "<group>"; };
+		6117212122FD8DD400716956 /* CurrencyConverterViewCOntrollerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyConverterViewCOntrollerTests.swift; sourceTree = "<group>"; };
 		6155E24622F1969D00DF9CC1 /* ForexApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexApiClient.swift; sourceTree = "<group>"; };
 		6155E24922F19C4A00DF9CC1 /* ForexMainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexMainModel.swift; sourceTree = "<group>"; };
 		6155E24B22F19CC800DF9CC1 /* ForexQueryDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexQueryDataModel.swift; sourceTree = "<group>"; };
@@ -68,10 +74,6 @@
 		6155E26022F1CEA200DF9CC1 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		61858CA522FBD72D009E6D0A /* CurrencyConverterVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterVIewModel.swift; sourceTree = "<group>"; };
 		61858CA722FBD742009E6D0A /* ExchangeRatesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesViewModel.swift; sourceTree = "<group>"; };
-		61858CB622FC38FB009E6D0A /* ForexAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForexAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		61858CB822FC38FB009E6D0A /* ViewControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControlTests.swift; sourceTree = "<group>"; };
-		61858CBA22FC38FB009E6D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61858CC222FC5078009E6D0A /* CurrencyConverterViewCOntrollerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterViewCOntrollerTests.swift; sourceTree = "<group>"; };
 		61DF6CDD22FA87ED006C2E57 /* ExchangeRatesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,7 +86,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61858CB322FC38FB009E6D0A /* Frameworks */ = {
+		6117211322FD8D7F00716956 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -98,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				610FBEDB22F190F8005598F2 /* ForexApp */,
-				61858CB722FC38FB009E6D0A /* ForexAppTests */,
+				6117211722FD8D7F00716956 /* ForexAppTests */,
 				610FBEDA22F190F8005598F2 /* Products */,
 				610FBEE522F190F9005598F2 /* LaunchScreen.storyboard */,
 				610FBEE322F190F9005598F2 /* Assets.xcassets */,
@@ -110,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				610FBED922F190F8005598F2 /* ForexApp.app */,
-				61858CB622FC38FB009E6D0A /* ForexAppTests.xctest */,
+				6117211622FD8D7F00716956 /* ForexAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +127,17 @@
 				61858CAE22FC2949009E6D0A /* ForexViews */,
 			);
 			path = ForexApp;
+			sourceTree = "<group>";
+		};
+		6117211722FD8D7F00716956 /* ForexAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6117212122FD8DD400716956 /* CurrencyConverterViewCOntrollerTests.swift */,
+				6117212022FD8DD400716956 /* ViewControlTests.swift */,
+				6117211822FD8D7F00716956 /* ForexAppTests.swift */,
+				6117211A22FD8D7F00716956 /* Info.plist */,
+			);
+			path = ForexAppTests;
 			sourceTree = "<group>";
 		};
 		6155E24522F1965B00DF9CC1 /* ForexAPI */ = {
@@ -175,16 +188,6 @@
 			path = ForexViews;
 			sourceTree = "<group>";
 		};
-		61858CB722FC38FB009E6D0A /* ForexAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				61858CB822FC38FB009E6D0A /* ViewControlTests.swift */,
-				61858CBA22FC38FB009E6D0A /* Info.plist */,
-				61858CC222FC5078009E6D0A /* CurrencyConverterViewCOntrollerTests.swift */,
-			);
-			path = ForexAppTests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -206,22 +209,22 @@
 			productReference = 610FBED922F190F8005598F2 /* ForexApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		61858CB522FC38FB009E6D0A /* ForexAppTests */ = {
+		6117211522FD8D7F00716956 /* ForexAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61858CBD22FC38FB009E6D0A /* Build configuration list for PBXNativeTarget "ForexAppTests" */;
+			buildConfigurationList = 6117211D22FD8D7F00716956 /* Build configuration list for PBXNativeTarget "ForexAppTests" */;
 			buildPhases = (
-				61858CB222FC38FB009E6D0A /* Sources */,
-				61858CB322FC38FB009E6D0A /* Frameworks */,
-				61858CB422FC38FB009E6D0A /* Resources */,
+				6117211222FD8D7F00716956 /* Sources */,
+				6117211322FD8D7F00716956 /* Frameworks */,
+				6117211422FD8D7F00716956 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				61858CBC22FC38FB009E6D0A /* PBXTargetDependency */,
+				6117211C22FD8D7F00716956 /* PBXTargetDependency */,
 			);
 			name = ForexAppTests;
 			productName = ForexAppTests;
-			productReference = 61858CB622FC38FB009E6D0A /* ForexAppTests.xctest */;
+			productReference = 6117211622FD8D7F00716956 /* ForexAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -237,7 +240,7 @@
 					610FBED822F190F8005598F2 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					61858CB522FC38FB009E6D0A = {
+					6117211522FD8D7F00716956 = {
 						CreatedOnToolsVersion = 10.2.1;
 						TestTargetID = 610FBED822F190F8005598F2;
 					};
@@ -257,7 +260,7 @@
 			projectRoot = "";
 			targets = (
 				610FBED822F190F8005598F2 /* ForexApp */,
-				61858CB522FC38FB009E6D0A /* ForexAppTests */,
+				6117211522FD8D7F00716956 /* ForexAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -272,7 +275,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61858CB422FC38FB009E6D0A /* Resources */ = {
+		6117211422FD8D7F00716956 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -301,22 +304,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61858CB222FC38FB009E6D0A /* Sources */ = {
+		6117211222FD8D7F00716956 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61858CC322FC5078009E6D0A /* CurrencyConverterViewCOntrollerTests.swift in Sources */,
-				61858CC122FC49BB009E6D0A /* ViewControlTests.swift in Sources */,
+				6117212222FD8DD400716956 /* ViewControlTests.swift in Sources */,
+				6117211922FD8D7F00716956 /* ForexAppTests.swift in Sources */,
+				6117212322FD8DD400716956 /* CurrencyConverterViewCOntrollerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		61858CBC22FC38FB009E6D0A /* PBXTargetDependency */ = {
+		6117211C22FD8D7F00716956 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 610FBED822F190F8005598F2 /* ForexApp */;
-			targetProxy = 61858CBB22FC38FB009E6D0A /* PBXContainerItemProxy */;
+			targetProxy = 6117211B22FD8D7F00716956 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -490,7 +494,7 @@
 			};
 			name = Release;
 		};
-		61858CBE22FC38FB009E6D0A /* Debug */ = {
+		6117211E22FD8D7F00716956 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,7 +513,7 @@
 			};
 			name = Debug;
 		};
-		61858CBF22FC38FB009E6D0A /* Release */ = {
+		6117211F22FD8D7F00716956 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -549,11 +553,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61858CBD22FC38FB009E6D0A /* Build configuration list for PBXNativeTarget "ForexAppTests" */ = {
+		6117211D22FD8D7F00716956 /* Build configuration list for PBXNativeTarget "ForexAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				61858CBE22FC38FB009E6D0A /* Debug */,
-				61858CBF22FC38FB009E6D0A /* Release */,
+				6117211E22FD8D7F00716956 /* Debug */,
+				6117211F22FD8D7F00716956 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

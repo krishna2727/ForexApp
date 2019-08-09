@@ -7,14 +7,15 @@
 //
 
 import XCTest
+@testable import ForexApp
 
 class CurrencyConverterViewCOntrollerTests: XCTestCase {
     
-    var viewController: UIViewController!
+    var viewController: SecondViewController!
 
     override func setUp() {
-        viewController = UIViewController()
-        MockNavigationController(rootViewController: UIViewController)
+        viewController = SecondViewController()
+       mockNavgationController(rootViewController: viewController)
         viewController.viewDidLoad()
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -23,9 +24,11 @@ class CurrencyConverterViewCOntrollerTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testWhenViewControllerIsLoadedShouldDisplayOneLabelThreeTextFieldsAndButton() {
+        
+        XCTAssertNotNil(findLabelInSubviews(view: viewController.view, text: "Currency Coverter"))
+        
+         
     }
 
     func testPerformanceExample() {
@@ -35,14 +38,22 @@ class CurrencyConverterViewCOntrollerTests: XCTestCase {
         }
     }
     
-    func 
-
-}
-
+    func findLabelInSubviews(view: UIView , text: String) -> UILabel? {
+        
+        for subview in view.subviews {
+            
+            if let label = subview as? UILabel,
+                label.text == text {
+                return label
+            }
+        }
+     return nil
+    }
 
 class mockNavgationController : UINavigationController {
     
     override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         super.pushViewController(viewController, animated: false)
     }
+}
 }

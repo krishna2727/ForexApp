@@ -21,7 +21,7 @@ class CurrencyConverterViewModel {
         self.init(apiClient: ForexApiClient())
     }
     
-    func convertCurrency(fromCountry : String , toCountry : String, enterAmount : String, completionhandler :  @escaping (_ dataResponse : ForexMainModel
+    func convertCurrency(fromCountry: String , toCountry: String, enterAmount: String, completionhandler:  @escaping (_ dataResponse : ForexMainModel
         ) -> ()) {
         
         apiClient.convertCurrency(fromCountry: fromCountry, toCountry: toCountry, enterAmount: enterAmount, completionhandler: completionhandler)

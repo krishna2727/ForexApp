@@ -9,6 +9,39 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>ForexAppTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>610FBED822F190F8005598F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>611720F122FD8B4100716956</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6117211522FD8D7F00716956</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>61858CB522FC38FB009E6D0A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>61FCF54822FD838F004E5F2F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>
